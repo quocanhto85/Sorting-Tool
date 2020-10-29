@@ -1,0 +1,3 @@
+[submodule "Sorting-Tool-Client"]
+	path = Sorting-Tool-Client
+	url = https://github.com/Quocanhtp/Sorting-Tool-Client.git
