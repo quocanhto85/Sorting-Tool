@@ -17,9 +17,7 @@ A simple website based on React JS and Node JS, which is used to sort data and s
 ## Configuration
 
 ### Server side
-Open file `.env`, you can see the specific components of a connected DB string (FTECH company):
-
-![Capture](https://user-images.githubusercontent.com/36063411/90368460-407df680-e094-11ea-81a7-6ea4aaa22054.PNG)
+You can config the db URI in `.env` file
 
 ### Client side
 - Enter folder: `cd client`
