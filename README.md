@@ -28,7 +28,7 @@ You can config the db URI in `.env` file
 ## Running the project
 1. Open Terminal, and type `npm run dev`, the interface will be displayed like this:
 
-![Capture](https://user-images.githubusercontent.com/36063411/90371499-44f8de00-e099-11ea-8876-9d5c93d63a8a.PNG)
+![interface](https://user-images.githubusercontent.com/36063411/104434045-5947f500-55bd-11eb-8035-001cfd40431b.PNG)
 
 2. Click on the button **Đăng Nhập**, the following interface will be displayed like this:
 
