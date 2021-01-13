@@ -19,10 +19,6 @@ A simple website based on React JS and Node JS, which is used to sort data and s
 ### Server side
 You can config the db URI in `.env` file
 
-### Client side
-- Enter folder: `cd client`
-- Open file `.env`, you can see the environment variables for Username and Password, you can also use arbitrary values:
-
 ![1](https://user-images.githubusercontent.com/36063411/90368972-21cc2f80-e095-11ea-8574-5f3f9e9edb2e.PNG)
 
 ## Running the project
@@ -30,7 +26,7 @@ You can config the db URI in `.env` file
 
 ![interface](https://user-images.githubusercontent.com/36063411/104434045-5947f500-55bd-11eb-8035-001cfd40431b.PNG)
 
-2. Click on the button **Đăng Nhập**, the following interface will be displayed like this:
+2. Enter your user account that already registered and click on the button **Đăng Nhập**, the following interface will be displayed like this:
 
 ![3](https://user-images.githubusercontent.com/36063411/90371771-a15bfd80-e099-11ea-90df-7b2db3c5b792.PNG)
 
