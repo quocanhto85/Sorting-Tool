@@ -40,7 +40,7 @@ In the `Config` collection, you can classify the name or service of your search 
 
 ![config](https://user-images.githubusercontent.com/36063411/104440334-c9a64480-55c4-11eb-9888-86465b5a3221.PNG)
 
-#### users
+#### Users
 In the `Users` collection, we use this collection to save the information of user registration and use them for authentication purpose. The image below is a sample of an user information
 
 ![users](https://user-images.githubusercontent.com/36063411/104440500-05d9a500-55c5-11eb-92ac-56f4a0d64acf.PNG)
