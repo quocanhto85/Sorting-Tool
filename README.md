@@ -24,11 +24,12 @@ A simple website based on React JS and Node JS, which is used to sort data and s
 2. Inside database `Search`, create 2 collections, named `Chart` and `Config`. Likewise, inside database `User_Info_Chart`, create collection `users`
 
 `Chart` and `Config` collection: 
+
 ![collections](https://user-images.githubusercontent.com/36063411/104437730-bba2f480-55c1-11eb-8b3c-a65d9ccc6130.PNG)
 
-`users` collection: 
-![users](https://user-images.githubusercontent.com/36063411/104438024-163c5080-55c2-11eb-9079-914676b759f7.PNG)
+`Users` collection: 
 
+![users](https://user-images.githubusercontent.com/36063411/104441778-b6947400-55c6-11eb-86de-d869bde2fe00.PNG)
 #### Chart
 In the `Chart` collection, you can generate the data to be sorted, this includes date, name, and count fields. The image below is a sample of data
 
@@ -40,7 +41,7 @@ In the `Config` collection, you can classify the name or service of your search 
 ![config](https://user-images.githubusercontent.com/36063411/104440334-c9a64480-55c4-11eb-9888-86465b5a3221.PNG)
 
 #### users
-In the `users` collection, we use this collection to save the information of user registration and use them for authentication purpose. The image below is a sample of an user information
+In the `Users` collection, we use this collection to save the information of user registration and use them for authentication purpose. The image below is a sample of an user information
 
 ![users](https://user-images.githubusercontent.com/36063411/104440500-05d9a500-55c5-11eb-92ac-56f4a0d64acf.PNG)
 
