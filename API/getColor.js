@@ -28,8 +28,8 @@ app.get("/getColor", (req, res) => {
     (err, db) => {
       if (err) console.log(err);
 
-      var mydb = db.db("Search"); //your DB name
-      var config = mydb.collection("Config"); //your DB collection config for colors
+      let mydb = db.db("Search"); //your DB name
+      let config = mydb.collection("Config"); //your DB collection config for colors
 
       config.find({}).toArray((err, docs) => {
         res.send(docs);

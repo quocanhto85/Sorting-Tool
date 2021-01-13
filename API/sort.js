@@ -26,19 +26,15 @@ app.post("/sort", (req, res) => {
     (err, db) => {
       if (err) console.log(err);
 
-      var mydb = db.db("Search"); //your DB name
-      var chart = mydb.collection("Chart"); //your DB collection
+      let mydb = db.db("Search"); //your DB name
+      let chart = mydb.collection("Chart"); //your DB collection
       const dataSort = {
         startDate: req.body.startDate,
         endDate: req.body.endDate,
         name: req.body.name,
       };
-      // var startDate = new Date(dataSort.startDate);
-      // var endDate = new Date(dataSort.endDate);
-      var startDate = dataSort.startDate;
-      var endDate = dataSort.endDate
-      console.log(startDate)
-      console.log(endDate)
+      let startDate = new Date(dataSort.startDate);
+      let endDate = new Date(dataSort.endDate);
       chart
         .find({})
         .sort({ date: 1, name: 1 })
@@ -47,9 +43,9 @@ app.post("/sort", (req, res) => {
           if (err) throw err;
           const { name } = dataSort;
           let response = docs.filter(
-            (x) => x.date >= startDate && x.date <= endDate
+            (x) => new Date(x.date) >= startDate && new Date(x.date) <= endDate
           );
-          if (dataSort.name.toLowerCase() !== "tất cả")
+          if (name.toLowerCase() !== "tất cả")
             response = response.filter((x) => x.name === name);
           res.write(JSON.stringify(response), () => {
             res.end();
